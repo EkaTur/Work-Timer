@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:,">
+</head>
+<body id="mainContainer">
+    <div>
+        <div id="header">
+            <h1 class="headerOne">Be productive with this timer</h1>
+        </div>
+
+        <div id="choose">
+            <h3 class="headerThree">Choose your preferable time intervals</h3>
+        </div>
+
+        <div id="btnsContainer">
+            <input type="radio" name="interval" class="interval one"><span>25 minutes work / 5 minutes break</span> 
+            <input type="radio" name="interval" class="interval two"><span>45 minutes work / 15 minutes break</span> 
+        </div>
+
+        <div id="timeParContainer">
+            <p id="timePar">0:00</p>
+        </div>
+
+        <div id="btnStartContainer">
+            <button type="button" disabled id="btnStart">START</button>
+        </div>
+
+        <div id="breakContainer">
+            <h2 id="headerTwo">TIME FOR BREAK</h2>
+            <p id="breakLeft">Time left until the end of the break</p>
+            <p id="parBreak">0:00</p>
+        </div>
+    </div>
+
+    <audio id="player">
+        <source src="audio.wav" type="audio/mp3">
+    </audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
