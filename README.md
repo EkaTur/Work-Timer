@@ -1,5 +1,5 @@
 # Productivity Timer
-![Screenshot](screenshot/screen.PNG)
+![Screenshot](Assets/screen.PNG)
 
 Hello! This project is a simple web application for managing work and break time. You can select your preferred time intervals and use it to enhance your productivity.
 
