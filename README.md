@@ -3,6 +3,10 @@
 
 Hello! This project is a simple web application for managing work and break time. You can select your preferred time intervals and use it to enhance your productivity.
 
+## Live Demo
+
+You can check out the live version of this website [here](https://productivity-timer.netlify.app/).
+
 ## Features
 
 - Interval Selection: You can choose between two options - 25 minutes of work and 5 minutes of break or 45 minutes of work and 15 minutes of break.
